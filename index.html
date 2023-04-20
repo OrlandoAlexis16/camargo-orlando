@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <container class="ejercicio1" >
+    <h1 style="color: red;">¿Qué es Javascript y en qué se asemeja a Java?</h1>
+    <p>JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico. 
+        Java es un lenguaje de programación orientado a objetos puros mientras que JavaScript está basado en prototipos, aunque tiene la capacidad de emular la programación orientada a objetos. Osea que entre Java y  JavaScript, lo unico que comparten es el nombre :v</p>
+    </container>
+
+    
+<br>
+    <container class="ejercicio2">
+
+        <script>
+            var x = 10
+            var y = 2
+               
+            var suma = x + y
+            var resta = x - y
+            var multi = x * y
+            var div = x / y
+
+            
+            console.log(suma);
+            console.log(resta);
+            console.log(multi);
+            console.log(div);
+
+
+        </script>
+           
+    </container>
+    
+
+    <container class="ejercicio3">
+
+        <script>
+
+            let a = "hello"
+            let b = " world"
+
+
+            console.log(a + b);
+        </script>
+
+    </container>
+
+    <container class="ejecricio4">
+
+        <script>
+
+            const c = "Juan"
+            const d = 19
+
+           console.log(typeof c);
+           console.log(typeof d);
+
+        </script>
+
+    </container>
+
+    <container class="ejecricio5">
+
+      <script>
+
+            var test = new Object();
+            test.age = 21;
+            test.name = 'orlando';
+            test.bool = true;
+            test.vacio = '';
+
+            console.log(test)
+
+      </script>
+
+    </container>
+
+    <container class="ejecricio6">
+
+        <script>
+            
+            var num = 10
+            function sumaMultiplos(num) {
+                     let suma = 0;
+                    for (let i = 1; i < num; i++) {
+                        if (i % 3 === 0 || i % 5 === 0) {
+                            suma += i;
+                                }
+                                    }
+                    return suma;
+
+                    
+                                }
+
+                                console.log("la suma de los multiplos de "+num+" es:"+ sumaMultiplos(num));
+
+        </script>
+
+    </body>
+
+</html>
